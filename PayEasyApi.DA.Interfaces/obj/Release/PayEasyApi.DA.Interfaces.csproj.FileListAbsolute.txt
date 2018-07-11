@@ -1,0 +1,14 @@
+C:\Users\phx\Documents\GitHub\20151005\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.DA.Interfaces.dll
+C:\Users\phx\Documents\GitHub\20151005\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.DA.Interfaces.pdb
+C:\Users\phx\Documents\GitHub\20151005\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.Models.dll
+C:\Users\phx\Documents\GitHub\20151005\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.Models.pdb
+C:\Users\phx\Documents\GitHub\20151005\PayEasyApi\PayEasyApi.DA.Interfaces\obj\Release\PayEasyApi.DA.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\phx\Documents\GitHub\20151005\PayEasyApi\PayEasyApi.DA.Interfaces\obj\Release\PayEasyApi.DA.Interfaces.dll
+C:\Users\phx\Documents\GitHub\20151005\PayEasyApi\PayEasyApi.DA.Interfaces\obj\Release\PayEasyApi.DA.Interfaces.pdb
+C:\Users\phx\Documents\GitHub\20151008\0949\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.DA.Interfaces.dll
+C:\Users\phx\Documents\GitHub\20151008\0949\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.DA.Interfaces.pdb
+C:\Users\phx\Documents\GitHub\20151008\0949\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.Models.dll
+C:\Users\phx\Documents\GitHub\20151008\0949\PayEasyApi\PayEasyApi.DA.Interfaces\bin\Release\PayEasyApi.Models.pdb
+C:\Users\phx\Documents\GitHub\20151008\0949\PayEasyApi\PayEasyApi.DA.Interfaces\obj\Release\PayEasyApi.DA.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\phx\Documents\GitHub\20151008\0949\PayEasyApi\PayEasyApi.DA.Interfaces\obj\Release\PayEasyApi.DA.Interfaces.dll
+C:\Users\phx\Documents\GitHub\20151008\0949\PayEasyApi\PayEasyApi.DA.Interfaces\obj\Release\PayEasyApi.DA.Interfaces.pdb

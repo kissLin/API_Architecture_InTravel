@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <log4net>
+    <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender">
+      <file type="log4net.Util.PatternString" value="DebugFiles/%date{yyyyMMdd}/debug.log" />
+      <appendToFile value="true" />
+      <rollingStyle value="Date" />
+      <datePattern value="_yyyyMMdd_HHmm" />
+      <PreserveLogFileNameExtension value="true" />
+      <filter type="log4net.Filter.LevelRangeFilter">
+        <levelMin value="DEBUG" />
+        <levelMax value="FATAL" />
+      </filter>
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%p%X{tab}%aspnet-request{REMOTE_ADDR}%X{tab}[%thread]%X{tab}%date{yyyy/MM/dd HH:mm:ss.fff}%X{tab}%c{1}%X{tab}%M%X{tab}%m%n" />
+      </layout>
+    </appender>
+    <appender name="SmtpAppender" type="log4net.Appender.SmtpAppender">
+      <to value="Ruby.lin@travelarena.com.tw" />
+      <from value="jerry.liang@travelarena.com.tw" />
+      <subject value="m1.travel.com.tw Warning: 02-2537-0140" />
+      <smtpHost value="61.63.16.11" />
+      <bufferSize value="10" />
+      <lossy value="true" />
+      <evaluator type="log4net.Core.LevelEvaluator">
+        <threshold value="WARN"/>
+      </evaluator>
+      <layout type="log4net.Layout.PatternLayout">
+        <conversionPattern value="%p%X{tab}%aspnet-request{REMOTE_ADDR}%X{tab}[%thread]%X{tab}%date{yyyy/MM/dd HH:mm:ss.fff}%X{tab}%c{1}%X{tab}%M%X{tab}%m%n" />
+      </layout>
+    </appender>
+    <root>
+      <level value="ALL"/>
+      <appender-ref ref="RollingFileAppender"/>
+      <appender-ref ref="SmtpAppender"/>
+    </root>
+  </log4net>
+</configuration>

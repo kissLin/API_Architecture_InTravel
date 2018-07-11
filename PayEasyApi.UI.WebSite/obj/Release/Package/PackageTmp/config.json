@@ -1,0 +1,7 @@
+﻿{
+    "connString": "Server=pg.travel.com.tw;Port=5432;User Id=travelarena;Password=25370000;Database=mobile2;",
+	"CSTFconnString": "Server=pg.travel.com.tw;Port=5432;User Id=travelarena;Password=25370000;Database=CSTF;",
+    "service_account": "travelarena",
+    "service_password": "25370000",
+    "MSconnString": "Server=mssql.travel.com.tw;User Id=sa;Password=1q2w3e4r;Database=Starbucks;"
+}

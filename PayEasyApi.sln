@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation Layer", "1.Presentation Layer", "{6710D22E-4458-41A9-B2FD-77EA77D17AA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business Logic Layer", "2.Business Logic Layer", "{10E0EC6E-5BBE-4E91-B371-6C10A17B9B26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Data Access Layer", "3.Data Access Layer", "{24053028-EC68-4C10-9A56-31351E5EA3C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Model Layer", "4.Model Layer", "{53E41373-C48C-4362-A4EF-ED458801CC7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Cross Cutting Layer", "5.Cross Cutting Layer", "{5F32669D-CC49-4D34-BA12-9DE0FFBE8D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayEasyApi.UI.WebSite", "PayEasyApi.UI.WebSite\PayEasyApi.UI.WebSite.csproj", "{1C7646BE-DAED-4650-9C66-A15A73DF1EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayEasyApi.BL.Interfaces", "PayEasyApi.BL.Interfaces\PayEasyApi.BL.Interfaces.csproj", "{3C238181-2421-43BB-B3CF-E674FE7FD755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayEasyApi.BL.Services", "PayEasyApi.BL.Services\PayEasyApi.BL.Services.csproj", "{D9861548-7658-452D-9FBC-80C9394389D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayEasyApi.DA.Interfaces", "PayEasyApi.DA.Interfaces\PayEasyApi.DA.Interfaces.csproj", "{8E045B1C-1FF6-4A5F-851F-6F746962A60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayEasyApi.DA.Repositories", "PayEasyApi.DA.Repositories\PayEasyApi.DA.Repositories.csproj", "{44F76291-447C-4A35-84A8-A1C03F7AECCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayEasyApi.Models", "PayEasyApi.Models\PayEasyApi.Models.csproj", "{79C3EFBD-5E94-45B6-B3F2-025BE821F7DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayEasyApi.Utility.Extensions", "PayEasyApi.Utility.Extensions\PayEasyApi.Utility.Extensions.csproj", "{A974D5AA-D973-4ED8-929C-5B3EA0947A11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C7646BE-DAED-4650-9C66-A15A73DF1EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7646BE-DAED-4650-9C66-A15A73DF1EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7646BE-DAED-4650-9C66-A15A73DF1EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7646BE-DAED-4650-9C66-A15A73DF1EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C238181-2421-43BB-B3CF-E674FE7FD755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C238181-2421-43BB-B3CF-E674FE7FD755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C238181-2421-43BB-B3CF-E674FE7FD755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C238181-2421-43BB-B3CF-E674FE7FD755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9861548-7658-452D-9FBC-80C9394389D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9861548-7658-452D-9FBC-80C9394389D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9861548-7658-452D-9FBC-80C9394389D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9861548-7658-452D-9FBC-80C9394389D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E045B1C-1FF6-4A5F-851F-6F746962A60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E045B1C-1FF6-4A5F-851F-6F746962A60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E045B1C-1FF6-4A5F-851F-6F746962A60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E045B1C-1FF6-4A5F-851F-6F746962A60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F76291-447C-4A35-84A8-A1C03F7AECCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F76291-447C-4A35-84A8-A1C03F7AECCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F76291-447C-4A35-84A8-A1C03F7AECCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F76291-447C-4A35-84A8-A1C03F7AECCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C3EFBD-5E94-45B6-B3F2-025BE821F7DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C3EFBD-5E94-45B6-B3F2-025BE821F7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C3EFBD-5E94-45B6-B3F2-025BE821F7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C3EFBD-5E94-45B6-B3F2-025BE821F7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A974D5AA-D973-4ED8-929C-5B3EA0947A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A974D5AA-D973-4ED8-929C-5B3EA0947A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A974D5AA-D973-4ED8-929C-5B3EA0947A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A974D5AA-D973-4ED8-929C-5B3EA0947A11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C7646BE-DAED-4650-9C66-A15A73DF1EAE} = {6710D22E-4458-41A9-B2FD-77EA77D17AA5}
+		{3C238181-2421-43BB-B3CF-E674FE7FD755} = {10E0EC6E-5BBE-4E91-B371-6C10A17B9B26}
+		{D9861548-7658-452D-9FBC-80C9394389D2} = {10E0EC6E-5BBE-4E91-B371-6C10A17B9B26}
+		{8E045B1C-1FF6-4A5F-851F-6F746962A60C} = {24053028-EC68-4C10-9A56-31351E5EA3C9}
+		{44F76291-447C-4A35-84A8-A1C03F7AECCA} = {24053028-EC68-4C10-9A56-31351E5EA3C9}
+		{79C3EFBD-5E94-45B6-B3F2-025BE821F7DD} = {53E41373-C48C-4362-A4EF-ED458801CC7E}
+		{A974D5AA-D973-4ED8-929C-5B3EA0947A11} = {5F32669D-CC49-4D34-BA12-9DE0FFBE8D3B}
+	EndGlobalSection
+EndGlobal

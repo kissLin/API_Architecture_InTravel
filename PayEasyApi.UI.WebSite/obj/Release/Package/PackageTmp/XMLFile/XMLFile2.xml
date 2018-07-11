@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SendOrderMain>
+  <TourElements>
+    <group_sn>ART1234567</group_sn>
+    <godate>2007/5/5</godate>
+    <adultcount>1</adultcount>
+    <childcount>1</childcount>
+    <childnocount>0</childnocount>
+    <addcount>0</addcount>
+    <babycount>1</babycount>
+    <allcount>3</allcount>
+  </TourElements>
+</SendOrderMain>
+

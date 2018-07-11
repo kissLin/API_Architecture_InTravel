@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9861548-7658-452D-9FBC-80C9394389D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PayEasyApi.BL.Services</RootNamespace>
+    <AssemblyName>PayEasyApi.BL.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MobileService.cs" />
+    <Compile Include="PHECDBService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PayEasyApi.BL.Interfaces\PayEasyApi.BL.Interfaces.csproj">
+      <Project>{3c238181-2421-43bb-b3cf-e674fe7fd755}</Project>
+      <Name>PayEasyApi.BL.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PayEasyApi.DA.Interfaces\PayEasyApi.DA.Interfaces.csproj">
+      <Project>{8e045b1c-1ff6-4a5f-851f-6f746962a60c}</Project>
+      <Name>PayEasyApi.DA.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PayEasyApi.DA.Repositories\PayEasyApi.DA.Repositories.csproj">
+      <Project>{44f76291-447c-4a35-84a8-a1c03f7aecca}</Project>
+      <Name>PayEasyApi.DA.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PayEasyApi.Models\PayEasyApi.Models.csproj">
+      <Project>{79c3efbd-5e94-45b6-b3f2-025be821f7dd}</Project>
+      <Name>PayEasyApi.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
