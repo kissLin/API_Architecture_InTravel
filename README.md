@@ -6,9 +6,9 @@ README
 4.設定-定時處理服務
 
 ********
-|Eric|API_Architecture_InTravel|
+|Ruby|API_Architecture_InTravel|
 |---|---
-|E-mail|kikichuang424@gmail.com
+|E-mail|kiss421@gmail.com
 
 ********
 ## 目錄
